@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://blefaroplastiamedellin.com/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://blefaroplastiamedellin.com/foto-pro.jpg</image:loc>
+      <image:title>Dra. Linda Espinosa — Cirujana oculoplástica en Medellín</image:title>
+      <image:caption>Oftalmóloga y cirujana oculoplástica especialista en blefaroplastia en Medellín.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://blefaroplastiamedellin.com/foto-pro-escritorio.jpg</image:loc>
+      <image:title>Consultorio de oculoplastia en Medellín</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://blefaroplastiamedellin.com/foto-operando.jpeg</image:loc>
+      <image:title>Cirugía de blefaroplastia en Medellín</image:title>
+    </image:image>
+  </url>
+</urlset>
