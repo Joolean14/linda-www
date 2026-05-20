@@ -566,3 +566,44 @@ html[lang="en"] .lang-en { display: revert; }
     transform: translateY(0);
   }
 }
+
+/* ============================ Memberships ============================ */
+.memberships {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 2rem;
+  text-align: center;
+}
+.memberships-title {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: #7a6a82;
+  margin-bottom: 1.25rem;
+}
+.memberships-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.memberships-logos a {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.75;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.memberships-logos a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+.memberships-logos img {
+  max-height: 120px;
+  width: auto;
+  max-width: 360px;
+  object-fit: contain;
+}
+@media (max-width: 575.98px) {
+  .memberships-logos { gap: 1.75rem; }
+  .memberships-logos img { max-height: 84px; max-width: 240px; }
+}
