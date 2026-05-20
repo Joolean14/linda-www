@@ -479,7 +479,8 @@ html[lang="en"] .lang-en { display: revert; }
 .social-cta {
   margin-top: 3.5rem;
 }
-.instagram-btn {
+.instagram-btn,
+.youtube-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
@@ -493,11 +494,13 @@ html[lang="en"] .lang-en { display: revert; }
   letter-spacing: 0.02em;
   transition: all .25s ease;
 }
-.instagram-btn i {
+.instagram-btn i,
+.youtube-btn i {
   font-size: 1.2rem;
   line-height: 1;
 }
-.instagram-btn:hover {
+.instagram-btn:hover,
+.youtube-btn:hover {
   background: var(--primary);
   color: #fff;
   transform: translateY(-1px);
