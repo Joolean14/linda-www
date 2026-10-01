@@ -348,34 +348,6 @@ html[lang="en"] .lang-en { display: revert; }
   font-size: 1.1rem;
 }
 
-/* ---------- Info cards (botox) ---------- */
-.info-card {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 1.75rem;
-}
-.info-card h4 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  font-family: var(--font-sans);
-  color: var(--primary-dark);
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-.info-card h4 i { color: var(--primary); font-size: 1.3rem; }
-.info-card ul {
-  padding-left: 1.1rem;
-  color: var(--text-soft);
-}
-.info-card ul li {
-  margin-bottom: 0.4rem;
-  font-size: 0.95rem;
-}
-.info-card ul li::marker { color: var(--primary); }
-
 /* ---------- Accordion ---------- */
 .accordion-item {
   background: transparent;
@@ -553,7 +525,7 @@ html[lang="en"] .lang-en { display: revert; }
   .footer-logo { height: 72px; }
   .section { padding: 3.5rem 0; }
   .hero h1 { font-size: 2rem; }
-  .service-card, .tip-card, .info-card, .contact-card { padding: 1.5rem 1.25rem; }
+  .service-card, .tip-card, .contact-card { padding: 1.5rem 1.25rem; }
   .btn-primary-custom, .btn-outline-custom { padding: 0.6rem 1.3rem; font-size: 0.88rem; }
 }
 
