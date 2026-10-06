@@ -605,3 +605,29 @@ html[lang="en"] .lang-en { display: revert; }
   color: #fff;
   transform: scale(1.1);
 }
+
+/* Testimonial video */
+.video-wrap {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 9 / 16;
+  background: var(--bg-alt);
+}
+.testimonial-video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* Spinner shown while the video buffers (toggled in script.js) */
+.video-loader {
+  position: absolute;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  pointer-events: none;
+}
+.video-wrap.is-loading .video-loader { display: flex; }

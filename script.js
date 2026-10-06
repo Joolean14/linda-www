@@ -74,6 +74,19 @@
     revealEls.forEach((el) => el.classList.add('visible'));
   }
 
+  // ---------- Video loader: show spinner while buffering ----------
+  document.querySelectorAll('.video-wrap').forEach((wrap) => {
+    const video = wrap.querySelector('video');
+    const showLoader = () => wrap.classList.add('is-loading');
+    const hideLoader = () => wrap.classList.remove('is-loading');
+    // On first play nothing is downloaded yet, so show the spinner right away
+    video.addEventListener('play', () => { if (video.readyState < 3) showLoader(); });
+    video.addEventListener('waiting', showLoader);
+    video.addEventListener('playing', hideLoader);
+    video.addEventListener('pause', hideLoader);
+    video.addEventListener('error', hideLoader);
+  });
+
   // ---------- Footer year ----------
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
