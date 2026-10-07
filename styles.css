@@ -439,13 +439,6 @@ html[lang="en"] .lang-en { display: revert; }
   color: var(--text);
   margin-bottom: 0.5rem;
 }
-.contact-card .price {
-  font-family: var(--font-serif);
-  font-size: 1.7rem;
-  color: var(--primary);
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
 
 /* ---------- Instagram CTA (contact section) ---------- */
 .social-cta {
