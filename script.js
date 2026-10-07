@@ -56,7 +56,7 @@
 
   // ---------- Reveal on scroll ----------
   const revealEls = document.querySelectorAll(
-    '.section-title, .eyebrow, .service-card, .tip-card, .contact-card, .stat-card, .check-list, .hero-text, .hero-photo-wrap'
+    '.section-title, .eyebrow, .before-after-card, .service-card, .tip-card, .contact-card, .stat-card, .check-list, .hero-text, .hero-photo-wrap'
   );
   revealEls.forEach((el) => el.classList.add('reveal'));
 
