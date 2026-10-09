@@ -625,30 +625,16 @@ html[lang="en"] .lang-en { display: revert; }
 }
 .video-wrap.is-loading .video-loader { display: flex; }
 
-/* Before / after results */
-.before-after-card {
-  position: relative;
+/* Before / after results carousel */
+.before-after-carousel {
   overflow: hidden;
-  margin: 0;
-  aspect-ratio: 4 / 5;
   background: var(--bg);
 }
-.before-after-card img {
-  width: 100%;
-  height: 100%;
-  display: block;
+.before-after-carousel .carousel-item img {
+  aspect-ratio: 1890 / 2363;
   object-fit: cover;
 }
-.before-after-label {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  padding: 4px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--primary-dark);
-  font-size: .8rem;
-  font-weight: 600;
-  letter-spacing: .08em;
-  text-transform: uppercase;
+.before-after-carousel .carousel-control-prev,
+.before-after-carousel .carousel-control-next {
+  width: 12%;
 }
